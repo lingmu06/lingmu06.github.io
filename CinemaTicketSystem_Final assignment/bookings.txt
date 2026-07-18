@@ -1,0 +1,24 @@
+Mission: Impossible (2025),R1C1,VIP,35.0
+Mission: Impossible (2025),R1C2,VIP,35.0
+Mission: Impossible (2025),R1C3,VIP,35.0
+Thunderbolts (2025),R10C1,Adult,20.0
+Thunderbolts (2025),R10C2,Student,15.0
+Thunderbolts (2025),R10C3,Adult,20.0
+Thunderbolts (2025),R9C1,Adult,20.0
+Thunderbolts (2025),R9C2,Adult,20.0
+Thunderbolts (2025),R9C3,Adult,20.0
+A Minecraft Movie (2026),R6C5,Adult,20.0
+A Minecraft Movie (2026),R10C10,Student,15.0
+A Minecraft Movie (2026),R8C9,Adult,20.0
+A Minecraft Movie (2026),R8C8,Student,15.0
+A Minecraft Movie (2026),R9C10,Adult,20.0
+Mission: Impossible (2025),R6C4,Adult,20.0
+Mission: Impossible (2025),R10C1,Adult,20.0
+Mission: Impossible (2025),R6C1,Adult,20.0
+Mission: Impossible (2025),R2C4,VIP,35.0
+Mission: Impossible (2025),R9C10,Adult,20.0
+Mission: Impossible (2025),R4C9,Adult,20.0
+A Minecraft Movie (2026),R3C1,Student,15.0
+A Minecraft Movie (2026),R3C2,Adult,20.0
+Mission: Impossible (2025),R4C4,Adult,20.0
+Mission: Impossible (2025),R4C5,Adult,20.0
