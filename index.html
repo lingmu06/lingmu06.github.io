@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Cheng Wei Yang — Portfolio</title>
-<meta name="description" content="Deveswar A/L Mohan — Diploma in Information Technology student at TAR UMT, building full-stack and cloud systems, aspiring AI/ML engineer.">
+<meta name="description" content="Cheng Wei Yang — Diploma in Information Technology student at TAR UMT, building full-stack and cloud systems, aspiring AI/ML engineer.">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,16 +13,17 @@
 
 <style>
   :root{
-    --bg: #F6F7F9;
-    --panel: #FFFFFF;
-    --border: #E2E5EB;
-    --text: #1C2333;
-    --muted: #656F80;
-    --accent: #1F4E8C;
-    --accent-soft: #EAF1FB;
+    --bg: #0A0F1E;
+    --panel: #121A2E;
+    --border: #24304A;
+    --text: #E7ECF5;
+    --muted: #8B96AC;
+    --accent: #5EEAD4;
+    --accent-warm: #FBBF24;
+    --accent-soft: rgba(94,234,212,.12);
     --radius: 10px;
     --maxw: 760px;
-    --shadow: 0 1px 2px rgba(20,30,50,.04), 0 4px 16px rgba(20,30,50,.05);
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.35);
   }
 
   *{box-sizing:border-box;}
@@ -49,7 +50,7 @@
   .bg-grid{
     position:fixed; inset:0; z-index:0; pointer-events:none;
     background-image:
-      radial-gradient(circle at 1px 1px, rgba(31,78,140,0.06) 1px, transparent 0);
+      radial-gradient(circle at 1px 1px, rgba(94,234,212,0.10) 1px, transparent 0);
     background-size: 34px 34px;
     mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
   }
@@ -90,6 +91,7 @@
   .rail li.active button{ color:var(--text); }
   .rail li.active .node-dot{
     background:var(--accent); border-color:var(--accent);
+    box-shadow:0 0 10px rgba(94,234,212,.6);
   }
   .rail .node-label{ opacity:0; transform:translateX(-6px); transition: all .2s ease; white-space:nowrap; }
   .rail li:hover .node-label, .rail li.active .node-label{ opacity:1; transform:translateX(0); }
@@ -122,7 +124,7 @@
   }
   .hero-net{
     position:absolute; right:-10%; top:8%; width:70%; max-width:520px; height:auto;
-    opacity:.5; z-index:-1; pointer-events:none;
+    opacity:.35; z-index:-1; pointer-events:none;
   }
   .hero h1{
     font-size:clamp(2.4rem, 6vw, 3.6rem);
@@ -141,8 +143,8 @@
     padding:11px 20px; border-radius:var(--radius); text-decoration:none;
     border:1px solid var(--border); transition: all .2s ease;
   }
-  .btn-primary{ background:var(--accent); color:#fff; border-color:var(--accent); }
-  .btn-primary:hover{ background:#173D6E; }
+  .btn-primary{ background:var(--accent); color:#06231E; border-color:var(--accent); }
+  .btn-primary:hover{ background:#7ff2e2; }
   .btn-ghost{ color:var(--text); background:var(--panel); }
   .btn-ghost:hover{ border-color:var(--accent); color:var(--accent); }
 
@@ -187,9 +189,9 @@
     font-family:'Inter', sans-serif; font-size:.68rem; font-weight:700; letter-spacing:.03em;
     padding:4px 10px; border-radius:100px; white-space:nowrap; text-transform:uppercase;
   }
-  .status-deployed{ background:#E7F6EC; color:#1E7A38; border:1px solid #C6EBD1; }
-  .status-progress{ background:#FDF3DA; color:#9A6700; border:1px solid #F5E3AC; }
-  .status-done{ background:#EEF1F5; color:#525C6B; border:1px solid var(--border); }
+  .status-deployed{ background:rgba(94,234,212,.12); color:var(--accent); border:1px solid rgba(94,234,212,.35); }
+  .status-progress{ background:rgba(251,191,36,.12); color:var(--accent-warm); border:1px solid rgba(251,191,36,.35); }
+  .status-done{ background:rgba(139,150,172,.14); color:var(--muted); border:1px solid var(--border); }
   .project-sub{ color:var(--muted); font-size:.9rem; margin:.2em 0 .9em 0; }
   .project-card ul{ margin-bottom:14px; padding-left:1.2em; }
   .project-card li{ margin-bottom:6px; color:var(--text); }
@@ -252,7 +254,7 @@
 
   <section id="home" class="section hero">
     <svg class="hero-net" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <g stroke="#C7D3E3" stroke-width="1">
+      <g stroke="#5EEAD4" stroke-width="1">
         <line x1="40" y1="60" x2="160" y2="120"/>
         <line x1="160" y1="120" x2="120" y2="240"/>
         <line x1="160" y1="120" x2="300" y2="90"/>
@@ -261,7 +263,7 @@
         <line x1="340" y1="220" x2="260" y2="310"/>
         <line x1="120" y1="240" x2="40" y2="330"/>
       </g>
-      <g fill="#1F4E8C">
+      <g fill="#5EEAD4">
         <circle cx="40" cy="60" r="4"/>
         <circle cx="160" cy="120" r="5"/>
         <circle cx="300" cy="90" r="4"/>
@@ -272,12 +274,12 @@
       </g>
     </svg>
     <p class="eyebrow">whoami</p>
-    <h1>Deveswar A/L Mohan</h1>
+    <h1>Cheng Wei Yang</h1>
     <p class="role">Diploma in Information Technology — TAR UMT · Aspiring AI/ML Engineer</p>
     <p class="tagline">I build full-stack systems end to end — from seat-selection UIs to cloud-deployed databases — and I'm working toward a career in AI/ML engineering.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="mailto:deveswarmohan@gmail.com">Email me</a>
-      <a class="btn btn-ghost" href="https://github.com/Messi10-newbie" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="btn btn-primary" href="mailto:chengwy-jm25@student.tarc.edu.my">Email me</a>
+      <a class="btn btn-ghost" href="https://github.com/lingmu06?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
     <div class="status-chips">
       <span class="chip">seeking industrial training</span>
@@ -325,7 +327,7 @@
   <section id="projects" class="section">
     <p class="eyebrow">projects</p>
     <h2>Projects</h2>
-    <p class="project-note">To view the source code for any project below, visit my <a href="https://github.com/Messi10-newbie" target="_blank" rel="noopener">GitHub profile</a>.</p>
+    <p class="project-note">To view the source code for any project below, visit my <a href="https://github.com/lingmu06?tab=repositories" target="_blank" rel="noopener">GitHub profile</a>.</p>
     <div class="project-grid">
 
       <article class="project-card">
@@ -469,19 +471,19 @@
     <h2>Let's connect</h2>
     <p>Open to industrial training / internship opportunities in software development, cloud computing, or IT support.</p>
     <div class="contact-grid">
-      <a class="contact-card" href="mailto:deveswarmohan@gmail.com">
+      <a class="contact-card" href="mailto:chengwy-jm25@student.tarc.edu.my">
         <span class="contact-label">email</span>
-        <span class="contact-value">deveswarmohan@gmail.com</span>
+        <span class="contact-value">chengwy-jm25@student.tarc.edu.my</span>
       </a>
-      <a class="contact-card" href="https://github.com/Messi10-newbie" target="_blank" rel="noopener">
+      <a class="contact-card" href="https://github.com/lingmu06?tab=repositories" target="_blank" rel="noopener">
         <span class="contact-label">github</span>
-        <span class="contact-value">Messi10-newbie</span>
+        <span class="contact-value">lingmu06</span>
       </a>
     </div>
   </section>
 
   <footer>
-    <p>&copy; <span id="year"></span> Deveswar A/L Mohan. Built with HTML, CSS &amp; JavaScript.</p>
+    <p>&copy; <span id="year"></span> Cheng Wei Yang. Built with HTML, CSS &amp; JavaScript.</p>
   </footer>
 
 </main>
